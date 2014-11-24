@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>WebRTC demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="iphone-frame">
+    <div class="screen-wrapper">
+      <video class="remote-video active" autoplay id="remote-video"></video>
+      <video class="local-video active" autoplay id="local-video" muted></video>
+      <input type="text" id="url-input" disabled>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="src/chat.js"></script>
+</body>
+</html>
